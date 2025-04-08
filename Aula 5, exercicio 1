@@ -1,0 +1,15 @@
+double v1, v2, v3, v4, v5, valorrecebido, valortroco;
+Console.WriteLine("Digite o valor 1");
+v1=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor 2");
+v2=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor 3");
+v3=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor 4");
+v4=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor 5");
+v5=Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Qual foi o valor recebido:");
+valorrecebido=Convert.ToDouble(Console.ReadLine());
+valortroco=valorrecebido-(v1+v2 + v3 + v4 + v5);
+Console.WriteLine("O valor do troco é:" + valortroco);

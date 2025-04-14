@@ -1,0 +1,11 @@
+﻿int media, nota1, nota2, nota3, nota4;
+Console.WriteLine("Digite a nota 1:");
+nota1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite a nota 2:");
+nota2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite a nota 3:");
+nota3 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite a nota 4:");
+nota4 = Convert.ToInt32(Console.ReadLine());
+media = (nota1+nota2+nota3+nota4)/4;
+Console.WriteLine("A média das notas é:" + media);
